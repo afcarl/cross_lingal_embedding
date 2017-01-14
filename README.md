@@ -1,6 +1,8 @@
 # cross lingal embedding
 
-This script is inspired by [Sebastian Ruder's post](http://sebastianruder.com/cross-lingual-embeddings/) on cross lingal embedding. In the script, a simple Monolingal Linear projection is used, i.e. finding a matrix which transform an original-language word vector into a target-language word vector. For exmple finding W s.t. W(v"シンガポール") = "Singapore"
+This script is inspired by [Sebastian Ruder's post](http://sebastianruder.com/cross-lingual-embeddings/) on cross lingal embedding. 
+
+This script learns matrix $W$ s.t. $v\_{en} = Wv\_{ja}$.
 
 # Prerequirements
 
